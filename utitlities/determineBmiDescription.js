@@ -5,7 +5,7 @@ const detetermineBmiDescription = (bmi) => {
     return "Pretty Normal, Keep At It";
   } else if (bmi >= 25 && bmi <= 29.9) {
     return "Overweight, Start Working out!";
-  } else if (bmi >= 30) {
+  } else if (bmi > 29.9) {
     return "You're obese, Hit the gym";
   }
 };
